@@ -6,7 +6,7 @@ Based on Sifringer et al. (2020) L-MNL model.
 Contents:
 * Word document.
 
-* Python files:
+* Python files (uses Tensorflow and Keras libraries):
 	- run_lending_main: main file, imports and pre-processes the data, runs a 5-Fold Stratified Cross-Validation,
 			    evaluates performance measures (AUC, accuracy, F1 score, MAE, and BIC), and extracts 
 			    corresponding coefficients and standard deviations for the MNL and L-MNL model.
